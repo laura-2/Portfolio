@@ -22,7 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-inline: 30%;
 }
 .portfolio_apresentacao{
@@ -31,6 +31,16 @@ body{
     color: var(--color-white);
     width: 300px;
     gap: 10px;
+    
+}
+.portfolio_sobremim{
+    display: flex;
+    color: var(--color-white);
+    width: 580px;
+    align-items: center;
+    margin-block: 6%;
+    margin-inline: 30%;
+    gap: 30px;
 }
 .strong{
     color: var(--color-blue);
@@ -47,13 +57,46 @@ img{
 .links{
     display: flex;
     gap: 15px;
+    flex-direction: column;
+    width: 150px;
+    margin-inline: 70px;
+    margin-top: 30px;
+}
+.links_icones{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--color-violet);
+    padding: 10px;
+}
+.cabecalho_links{
+    display: flex;
+    padding: 5% 0% 0% 18%;
+    gap: 10px;
+}
+.cabecalho_links_titulo{
+    color: var(--color-blue);
+    font-weight: 400;
+    text-decoration: none;
 }
 
-a{
+.portfolio_apresentacao_links{
     color: var(--color-white);
-    border-radius: 10px;
-    background-color: var(--color-violet);
-    padding: 10px;
     text-decoration: none;
     text-align: center;
+}
+.links_icones:hover{
+    background-color: var(--color-violet);
+}
+.rodape{
+    margin-top: 10%;
+    color: var(--color-white);
+    background-color: #7192BE;
+    padding: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+.icones{
+    width: 20px;
 }
