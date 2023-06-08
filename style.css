@@ -110,7 +110,7 @@ body{
 
 @media (max-width: 900px){
     .portfolio{
-        margin-inline: 20%;
+        margin: 10% 20% 0 20%;
     }
     .portfolio_apresentacao{
         width: 70%;
@@ -126,7 +126,8 @@ body{
     }
     .portfolio_sobremim{
         width: 80%;
-        margin: 6% 10% 6% 10%;
+        margin: 10% 10% 6% 10%;
+        text-align: justify;
     }
 }
 
@@ -148,7 +149,6 @@ body{
     }
     .portfolio_sobremim{
         flex-direction: column-reverse;
-        margin: 20% 10% 6% 10%;
     }
 }
 @media (max-width: 425px){
@@ -158,7 +158,6 @@ body{
     }
     .portfolio_apresentacao{
         width: auto;
-        text-align: center;
     }
     .links{
         width: 50%;
@@ -166,8 +165,6 @@ body{
     }
     .portfolio_sobremim{
         width: auto;
-        text-align: center;
-        margin: 20% 10% 6% 10%;
     }
 }
 @media (max-width: 370px){
@@ -183,14 +180,8 @@ body{
     .portfolio{
         margin: 20% 0 0 0;
     }
-    .links{
-        width: 60%;
-    }
 }
 @media (max-width: 250px){
-    .portfolio{
-        margin: 20% 0 0 0;
-    }
     .links{
         width: 70%;
         margin-inline: 40px;
