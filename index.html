@@ -8,10 +8,18 @@
     <title>Portfólio</title>
   </head>
   <body>
-    <header class="cabecalho">
-      <nav class="cabecalho_links">
+    <header>
+      <!-- <nav class="cabecalho_links">
         <a href="index.html" class="cabecalho_links_titulo">Home</a>
         <a href="about.html" class="cabecalho_links_titulo">Sobre mim</a>
+      </nav> -->
+      <img class="menu_button" src="./assets/botao-menu.png">
+      <nav class="menu_nav">
+        <ul>
+          <li><a class="menu_info" href="index.html">Home</a></li>
+          <li><a class="menu_info" href="about.html">Sobre mim</a></li>
+          <li><a class="menu_info" href="contato.html">Contatos</a></li>
+        </ul>
       </nav>
     </header>
     <div class="portfolio">
@@ -64,4 +72,15 @@
       <p>Desenvolvido por Laura Verbinen</p>
     </footer>
   </body>
+  <script>
+    const button = document.querySelector('.menu_button')
+
+    button.addEventListener('click', funcaoCallback)
+
+    function funcaoCallback() {
+      const menuNav = document.querySelector('.menu_nav')
+      menuNav.classList.toggle('menu-active')
+      
+    }
+  </script>
 </html>
