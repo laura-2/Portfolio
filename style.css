@@ -36,10 +36,10 @@ body{
 .portfolio_sobremim{
     display: flex;
     color: var(--color-white);
-    width: 580px;
+    width: 710px;
     align-items: center;
     margin-block: 6%;
-    margin-inline: 30%;
+    margin-inline: 20%;
     gap: 30px;
 }
 .strong{
