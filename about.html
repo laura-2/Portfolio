@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfólio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img class="menu_button" src="./assets/botao-menu.png">
+      <img class="menu_button" src="./assets/botao-menu.png" />
       <nav class="menu_nav">
         <ul>
           <li><a class="menu_info" href="index.html">Home</a></li>
@@ -19,42 +19,48 @@
       </nav>
     </header>
     <section class="portfolio_sobremim">
-        <p class="portfolio_apresentacao_subtitulo">Em 2019-2020 tive a oportunidade de fazer um intercâmbio na Indonésia, 
-            onde adquiri muitas experiências e memórias incríveis, além de ter contato com uma 
-            cultura totalmente diferente, onde me trouxeram uma facilidade para me reinventar em diversas situações. No início foi bem difícil,
-            não conseguia me comunicar e me expressar,
-            o Google Tradutor foi meu melhor amigo nesses momentos. Com isso, 
-            depois de 4 meses eu já conversava tranquilamente em 
-            inglês, porém na Indonésia poucas pessoas falavam inglês, foi ai que precisei aprender o Indonésio 
-            e em pouco tempo já estava fluente nessas línguas.
-            <br>
-            Meu primeiro contato com a programação foi logo após a viagem, com a linguagem de programação Python em um curso online.
-            Logo, comecei a faculdade de Análise e Desenvolvimento de Sistemas na PUCPR em EAD. 
-            Atualmente, estou no último período da faculdade, onde pude aprender novas linguagens de programação 
-            e suas tecnologias e com isso acabei me identificando mais em projetos Front-End. 
-            Tenho conhecimento sólido em HTML e CSS Flexbox.
-            Ainda estou aprendendo a linguagem JavaScript e Typescript junto com React, e React Native. Cada dia mais 
-            encantada e curiosa para aprender ainda mais sobre o mundo das telas.
-            <br>
-        </p>
-            
-        <img class="foto" src="./assets/image.jpeg"  alt="Foto de perfil Laura Verbinen">
- 
-    </section>
-   
-    <footer class="rodape">
-        <p>Desenvolvido por Laura Verbinen</p>
-    </footer>
-</body>
-<script>
-    const button = document.querySelector('.menu_button')
+      <p class="portfolio_apresentacao_subtitulo">
+        Em 2019-2020 tive a oportunidade de fazer um intercâmbio na Indonésia,
+        onde adquiri muitas experiências e memórias incríveis, além de ter
+        contato com uma cultura totalmente diferente, onde me trouxeram uma
+        facilidade para me reinventar em diversas situações. No início foi bem
+        difícil, não conseguia me comunicar e me expressar, o Google Tradutor
+        foi meu melhor amigo nesses momentos. Com isso, depois de 4 meses eu já
+        conversava tranquilamente em inglês, porém na Indonésia poucas pessoas
+        falavam inglês, foi ai que precisei aprender o Indonésio e em pouco
+        tempo já estava fluente nessas línguas.
+        <br />
+        Meu primeiro contato com a programação foi logo após a viagem, com a
+        linguagem de programação Python em um curso online. Logo, comecei a
+        faculdade de Análise e Desenvolvimento de Sistemas na PUCPR em EAD.
+        Atualmente, estou no último período da faculdade, onde pude aprender
+        novas linguagens de programação e suas tecnologias e com isso acabei me
+        identificando mais em projetos Front-End. Tenho conhecimento sólido em
+        HTML e CSS Flexbox. Ainda estou aprendendo a linguagem JavaScript e
+        Typescript junto com React, e React Native. Cada dia mais encantada e
+        curiosa para aprender ainda mais sobre o mundo das telas.
+        <br />
+      </p>
 
-    button.addEventListener('click', funcaoCallback)
+      <img
+        class="foto"
+        src="./assets/image.jpeg"
+        alt="Foto de perfil Laura Verbinen"
+      />
+    </section>
+
+    <footer class="rodape">
+      <p>Desenvolvido por Laura Verbinen</p>
+    </footer>
+  </body>
+  <script>
+    const button = document.querySelector(".menu_button");
+
+    button.addEventListener("click", funcaoCallback);
 
     function funcaoCallback() {
-      const menuNav = document.querySelector('.menu_nav')
-      menuNav.classList.toggle('menu-active')
-      
+      const menuNav = document.querySelector(".menu_nav");
+      menuNav.classList.toggle("menu-active");
     }
   </script>
 </html>
