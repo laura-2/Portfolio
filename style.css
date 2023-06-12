@@ -132,7 +132,37 @@ li {
 .icones{
     width: 18%;
 }
-
+.portfolio_contatos{
+    text-align: center;
+    color: var(--color-blue);
+    font-size: var(--text-size-title);
+    font-weight: 400;
+    margin-block: 21%;
+}
+.cabecalho_links{
+    display: flex;
+    gap: 10px;
+    margin: 12% 0 0 5%;
+}
+.cabecalho_links_titulo{
+    text-decoration: none;
+    color: var(--color-blue);
+    font-size: var(--text-size-title);
+}
+@media (max-width: 2560px){
+    .cabecalho_links{
+        margin: 5% 0 0 5%;
+    }
+    .portfolio_contatos{
+        margin-block: 23%;
+    }
+}
+@media (max-width: 1024px){
+    .links{
+        width: 70%;
+        margin: 30px 50px 0px 30px;
+    }
+}
 @media (max-width: 900px){
     .portfolio{
         margin: 10% 20% 0 20%;
@@ -155,6 +185,14 @@ li {
         text-align: justify;
     }
 }
+@media (max-width: 768px){
+    .portfolio_contatos{
+        margin-block: 26%;
+    }
+    .portfolio_contatos{
+        margin-block: 30%;
+    }
+}
 
 @media (max-width: 650px){
     .portfolio{
@@ -175,6 +213,9 @@ li {
     .portfolio_sobremim{
         flex-direction: column-reverse;
     }
+    .portfolio_contatos{
+        margin-block: 35%;
+    }
 }
 @media (max-width: 425px){
     .portfolio{
@@ -191,8 +232,11 @@ li {
     .portfolio_sobremim{
         width: auto;
     }
+    .portfolio_contatos{
+        margin-block: 50%;
+    }
 }
-@media (max-width: 370px){
+@media (max-width: 375px){
     .portfolio{
         margin-inline: 5%;
     }
@@ -200,10 +244,21 @@ li {
         width: 60%;
         margin-inline: 60px;
     }
+    .portfolio_contatos{
+        margin-block: 60%;
+    }
+}
+@media (max-width: 320px){
+    .portfolio_contatos{
+        margin-block: 70%;
+    }
 }
 @media (max-width: 300px){
     .portfolio{
         margin: 20% 0 0 0;
+    }
+    .portfolio_contatos{
+        margin-block: 70%;
     }
 }
 @media (max-width: 250px){
@@ -213,5 +268,9 @@ li {
     }
     .links_icones{
         padding-inline: 15px;
+    }
+    .portfolio_contatos{
+        margin-block: 81%;
+        font-size: var(--text-size-subtitle);
     }
 }
